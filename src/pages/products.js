@@ -1,13 +1,13 @@
 import Head from 'next/head'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
-import Container from '@/components/Container';
-import Main from '@/components/Main';
-import Footer from '@/components/Footer';
-import Grid from '@/components/Grid';
-import ProductList from '@/components/ProductList';
+import Container from '@/components/Container'
+import Main from '@/components/Main'
+import Footer from '@/components/Footer'
+import Grid from '@/components/Grid'
+import ProductList from '@/components/ProductList'
 import { wrapper } from '@/redux/store'
-import { getListProduct } from '@/redux/actions/products.action';
+import { getListProduct } from '@/redux/actions/products.action'
 
 const Products = (props) => {
   return (
@@ -18,13 +18,12 @@ const Products = (props) => {
 
         <meta
           name="description"
-          content="Use Sass to start your Next.js app with CSS superpowers!"
-        ></meta>
+          content="Use Sass to start your Next.js app with CSS superpowers!"></meta>
       </Head>
 
       <Main>
         <Grid>
-          <ProductList products={props.products}/>
+          <ProductList products={props.products} />
         </Grid>
       </Main>
 
@@ -41,7 +40,7 @@ export const getServerSideProps = wrapper.getServerSideProps(
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    getListProduct: bindActionCreators(getListProduct, dispatch),
+    getListProduct: bindActionCreators(getListProduct, dispatch)
   }
 }
 

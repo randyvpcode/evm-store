@@ -1,17 +1,17 @@
-import styles from './Main.module.scss';
+import styles from './Main.module.scss'
 
 const Main = ({ children, className, ...rest }) => {
-  let mainClassName = styles.main;
+  let mainClassName = styles.main
 
-  if ( className ) {
-    mainClassName = `${mainClassName} ${className}`;
+  if (className) {
+    mainClassName = `${mainClassName} ${className}`
   }
 
   return (
-    <div {...rest} className={mainClassName} >
-      { children }
+    <div {...rest} className={mainClassName}>
+      {children}
     </div>
   )
 }
 
-export default Main;
+export default Main

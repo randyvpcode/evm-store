@@ -12,9 +12,8 @@ const bindMiddleware = (middleware) => {
 }
 
 const combinedReducer = combineReducers({
-  productsReducer,
+  productsReducer
 })
-
 
 const initStore = () => {
   return createStore(combinedReducer, bindMiddleware([thunkMiddleware]))

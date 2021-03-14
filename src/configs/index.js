@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const request = axios.create({
-  baseURL: 'https://fakestoreapi.com',
+  baseURL: 'https://fakestoreapi.com'
 })
 
-export {request}
+export { request }

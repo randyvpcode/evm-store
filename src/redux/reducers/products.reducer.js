@@ -1,11 +1,11 @@
-import {GET_PRODUCTS} from '@/utils/constants'
+import { GET_PRODUCTS } from '@/utils/constants'
 
 const initialState = {
   products: []
 }
 
 const productsReducer = (state = initialState, action) => {
-  switch(action.type) {
+  switch (action.type) {
     case GET_PRODUCTS:
       return {
         ...state,

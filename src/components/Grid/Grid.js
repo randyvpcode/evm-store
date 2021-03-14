@@ -1,17 +1,17 @@
-import styles from './Grid.module.scss';
+import styles from './Grid.module.scss'
 
 const Grid = ({ children, className, ...rest }) => {
-  let gridClassName = styles.grid;
+  let gridClassName = styles.grid
 
-  if ( className ) {
-    gridClassName = `${gridClassName} ${className}`;
+  if (className) {
+    gridClassName = `${gridClassName} ${className}`
   }
 
   return (
     <div {...rest} className={gridClassName}>
-      { children }
+      {children}
     </div>
   )
 }
 
-export default Grid;
+export default Grid
