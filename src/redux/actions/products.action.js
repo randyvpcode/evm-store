@@ -1,13 +1,28 @@
-import { GET_PRODUCTS } from '@/utils/constants'
-import { request } from '../../configs'
+import { GET_PRODUCTS, GET_PRODUCT } from '@/utils/constants'
+import axios from 'axios'
 
 export const getListProduct = () => {
   return (dispatch) =>
-    request
-      .get(`/products`)
+    axios
+      .get(`/api/products`)
       .then((response) =>
         dispatch({
           type: GET_PRODUCTS,
+          payload: response
+        })
+      )
+      .catch((error) => {
+        console.log(error)
+      })
+}
+
+export const getListProductById = (id) => {
+  return (dispatch) =>
+    axios
+      .get(`/api/products/${id}`)
+      .then((response) =>
+        dispatch({
+          type: GET_PRODUCT,
           payload: response
         })
       )

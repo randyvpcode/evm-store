@@ -10,7 +10,14 @@
     "format": "prettier --write \"**/*.{js,jsx,css,scss,json}\" --config ./.prettierrc"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-regular-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "axios": "^0.21.1",
+    "classnames": "^2.2.6",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "next": "10.0.8",
     "next-redux-wrapper": "^6.0.2",

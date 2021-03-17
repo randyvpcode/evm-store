@@ -1,0 +1,162 @@
+@import '../../styles/settings/colors';
+
+.container__detail {
+  width: 800px;
+  height: 320px;
+  box-shadow: 0px 1px 8px -5px $color-shadow;
+  display: flex;
+  border-radius: 7px;
+  @media (max-width: 600px) {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.detail__img {
+  width: 250px;
+  height: 320px;
+  border-radius: 7px;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.detail__content {
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.detail__title h2 {
+  margin-left: 10px;
+  margin-top: 5px;
+  color: $color-primary;
+}
+.detail__rating {
+  font-size: 14px;
+  margin-top: -15px;
+}
+
+.detail__category_wrapper {
+  position: relative;
+  margin: 5px 0 10px 0;
+}
+
+.detail__category,
+.detail__price,
+.detail__rating {
+  margin-left: 10px;
+}
+
+.detail__category {
+  background-color: $color-primary;
+  position: absolute;
+  padding: 0 5px 1px 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: $color-white;
+  text-transform: capitalize;
+}
+
+.detail__description {
+  width: 550px;
+  margin: 10px;
+}
+
+.detail__icon {
+  height: 14px;
+  margin-right: 5px;
+}
+
+.detail__btn_group {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+.custom_btn {
+  color: $color-primary;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+.custom_btn:hover {
+  color: $color-black;
+}
+
+.container__recomended_product {
+  width: 240px;
+  height: 500;
+  box-shadow: 0px 1px 8px -5px $color-shadow;
+  margin-left: 10px;
+  border-radius: 7px;
+  @media (max-width: 600px) {
+    width: 100%;
+    margin-top: 300px;
+  }
+}
+
+.sidebar__title {
+  color: $color-primary;
+  margin-left: 10px;
+}
+
+.sidebar__price {
+  color: $color-black;
+  margin-left: 10px;
+  margin-top: -12px;
+}
+
+.sidebar__price span {
+  color: #c4c3c3;
+  margin-left: 10px;
+  margin-top: -12px;
+  text-decoration: line-through;
+}
+
+.btn__group_amount {
+  display: flex;
+  margin-left: 10px;
+}
+
+.btn__amount_text {
+  background: $color-bw;
+  color: $color-black;
+  padding: 10px;
+}
+
+.btn__amount {
+  background: $color-bw;
+  color: $color-secondary;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn__action {
+  padding: 7px;
+  margin: 5px;
+  border-radius: 7px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn__secondary {
+  border: 1px solid $color-primary;
+  color: $color-black;
+}
+
+.btn__primary {
+  background-color: $color-primary;
+  color: $color-white;
+}

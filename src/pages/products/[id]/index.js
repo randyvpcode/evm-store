@@ -8,12 +8,16 @@ import Footer from '@/components/Footer'
 import Grid from '@/components/Grid'
 import ProductList from '@/components/ProductList'
 import { wrapper } from '@/redux/store'
-import { getListProduct } from '@/redux/actions/products.action'
+import { getListProductById } from '@/redux/actions/products.action'
+import Detail from '../Detail'
+import { useRouter } from 'next/router'
 import Navbar from '@/components/Navbar'
 
-const Products = (props) => {
+const Product = (props) => {
+  const router = useRouter()
+  const { id } = router.query
   useEffect(() => {
-    props.getListProduct()
+    props.getListProductById(id)
   }, [])
 
   return (
@@ -30,7 +34,7 @@ const Products = (props) => {
       <Main>
         <Navbar />
         <Grid>
-          <ProductList products={props.products} />
+          <Detail product={props.product} />
         </Grid>
       </Main>
 
@@ -41,20 +45,20 @@ const Products = (props) => {
 
 export const getServerSideProps = wrapper.getServerSideProps(
   async ({ store }) => {
-    store.dispatch(getListProduct())
+    store.dispatch(getListProductById())
   }
 )
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    getListProduct: bindActionCreators(getListProduct, dispatch)
+    getListProductById: bindActionCreators(getListProductById, dispatch)
   }
 }
 
 const mapStateToProps = (state) => {
   return {
-    products: state.productsReducer.products
+    product: state.productsReducer.product
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Products)
+export default connect(mapStateToProps, mapDispatchToProps)(Product)

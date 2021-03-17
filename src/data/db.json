@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1001,
+      "category": "Category 1",
+      "title": "Product 1",
+      "image": "https://picsum.photos/400?image=42",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "1384.127"
+    },
+    {
+      "id": 1002,
+      "category": "Category 1",
+      "title": "Product 2",
+      "image": "https://picsum.photos/400?image=658",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3277.861"
+    },
+    {
+      "id": 1003,
+      "category": "Category 4",
+      "title": "Product 3",
+      "image": "https://picsum.photos/400?image=257",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3182.104"
+    },
+    {
+      "id": 1004,
+      "category": "Category 2",
+      "title": "Product 4",
+      "image": "https://picsum.photos/400?image=719",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3826.005"
+    },
+    {
+      "id": 1005,
+      "category": "Category 4",
+      "title": "Product 5",
+      "image": "https://picsum.photos/400?image=627",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3243.019"
+    },
+    {
+      "id": 1006,
+      "category": "Category 2",
+      "title": "Product 6",
+      "image": "https://picsum.photos/400?image=336",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "1010.343"
+    },
+    {
+      "id": 1007,
+      "category": "Category 2",
+      "title": "Product 7",
+      "image": "https://picsum.photos/400?image=116",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "2109.442"
+    },
+    {
+      "id": 1008,
+      "category": "Category 2",
+      "title": "Product 8",
+      "image": "https://picsum.photos/400?image=74",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "1547.416"
+    },
+    {
+      "id": 1009,
+      "category": "Category 3",
+      "title": "Product 9",
+      "image": "https://picsum.photos/400?image=153",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "2351.397"
+    },
+    {
+      "id": 1010,
+      "category": "Category 1",
+      "title": "Product 10",
+      "image": "https://picsum.photos/400?image=142",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "2622.938"
+    },
+    {
+      "id": 1011,
+      "category": "Category 1",
+      "title": "Product 11",
+      "image": "https://picsum.photos/400?image=682",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3056.772"
+    },
+    {
+      "id": 1012,
+      "category": "Category 2",
+      "title": "Product 12",
+      "image": "https://picsum.photos/400?image=239",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3359.115"
+    },
+    {
+      "id": 1013,
+      "category": "Category 1",
+      "title": "Product 13",
+      "image": "https://picsum.photos/400?image=799",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "1855.161"
+    },
+    {
+      "id": 1014,
+      "category": "Category 1",
+      "title": "Product 14",
+      "image": "https://picsum.photos/400?image=391",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3706.040"
+    },
+    {
+      "id": 1015,
+      "category": "Category 1",
+      "title": "Product 15",
+      "image": "https://picsum.photos/400?image=445",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3568.080"
+    },
+    {
+      "id": 1016,
+      "category": "Category 4",
+      "title": "Product 16",
+      "image": "https://picsum.photos/400?image=60",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "2581.506"
+    },
+    {
+      "id": 1017,
+      "category": "Category 1",
+      "title": "Product 17",
+      "image": "https://picsum.photos/400?image=109",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3666.689"
+    },
+    {
+      "id": 1018,
+      "category": "Category 1",
+      "title": "Product 18",
+      "image": "https://picsum.photos/400?image=258",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "3002.747"
+    },
+    {
+      "id": 1019,
+      "category": "Category 3",
+      "title": "Product 19",
+      "image": "https://picsum.photos/400?image=276",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "1249.320"
+    },
+    {
+      "id": 1020,
+      "category": "Category 4",
+      "title": "Product 20",
+      "image": "https://picsum.photos/400?image=894",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "price": "2287.986"
+    }
+  ]
+}

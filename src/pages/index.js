@@ -3,7 +3,8 @@ import Container from '@/components/Container'
 import Main from '@/components/Main'
 import Footer from '@/components/Footer'
 import Grid from '@/components/Grid'
-import Card from '@/components/Card'
+import Navbar from '@/components/Navbar'
+import styles from './index.module.scss'
 
 export default function Home() {
   return (
@@ -18,36 +19,12 @@ export default function Home() {
       </Head>
 
       <Main>
+        <Navbar />
         <Grid>
-          <Card>
-            <a href="https://nextjs.org/docs">
-              <h2>Documentation &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
-            </a>
-          </Card>
-
-          <Card>
-            <a href="https://nextjs.org/learn">
-              <h2>Learn &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
-            </a>
-          </Card>
-
-          <Card>
-            <a href="https://github.com/vercel/next.js/tree/master/examples">
-              <h2>Examples &rarr;</h2>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
-            </a>
-          </Card>
-
-          <Card>
-            <a href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app">
-              <h2>Deploy &rarr;</h2>
-              <p>
-                Instantly deploy your Next.js site to a public URL with Vercel.
-              </p>
-            </a>
-          </Card>
+          <div className={styles.container}>
+            <h2>Welcome to EVM Store</h2>
+            <p>Tech Stack : Next.js, Redux, Sass</p>
+          </div>
         </Grid>
       </Main>
 

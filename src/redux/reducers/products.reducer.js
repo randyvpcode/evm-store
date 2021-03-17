@@ -1,7 +1,8 @@
-import { GET_PRODUCTS } from '@/utils/constants'
+import { GET_PRODUCTS, GET_PRODUCT } from '@/utils/constants'
 
 const initialState = {
-  products: []
+  products: [],
+  product: {}
 }
 
 const productsReducer = (state = initialState, action) => {
@@ -9,7 +10,12 @@ const productsReducer = (state = initialState, action) => {
     case GET_PRODUCTS:
       return {
         ...state,
-        products: action.payload.data
+        products: action.payload.data.products
+      }
+    case GET_PRODUCT:
+      return {
+        ...state,
+        product: action.payload.data.product
       }
     default:
       return state
