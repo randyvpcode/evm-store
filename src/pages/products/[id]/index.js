@@ -9,7 +9,7 @@ import Grid from '@/components/Grid'
 import ProductList from '@/components/ProductList'
 import { wrapper } from '@/redux/store'
 import { getListProductById } from '@/redux/actions/products.action'
-import Detail from '../Detail'
+import Detail from '@/components/Detail/Detail'
 import { useRouter } from 'next/router'
 import Navbar from '@/components/Navbar'
 
